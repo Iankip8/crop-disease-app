@@ -5,3 +5,5 @@ numpy
 pillow
 jinja2
 python-multipart
+gdown
+
