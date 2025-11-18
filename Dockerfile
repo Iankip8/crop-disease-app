@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 8000
 
 # Start FastAPI using the Render-assigned port
-CMD ["sh", "-c", "uvicorn app.api:app --host 0.0.0.0 --port $PORT"]
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port $PORT"]
